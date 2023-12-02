@@ -34,5 +34,8 @@
     "ts-node@10.9.1": {
       "unplugged": true
     }
+  },
+  "dependencies": {
+    "ts-enum-util": "^4.0.2"
   }
 }
