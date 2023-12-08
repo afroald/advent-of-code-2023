@@ -1257,6 +1257,7 @@ __metadata:
     "@types/node": "npm:^20.10.1"
     "@typescript-eslint/eslint-plugin": "npm:^6.13.1"
     "@typescript-eslint/parser": "npm:^6.13.1"
+    divisor: "npm:^1.0.3"
     eslint: "npm:^8.54.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-prettier: "npm:^5.0.1"
@@ -1879,6 +1880,13 @@ __metadata:
   dependencies:
     path-type: "npm:^4.0.0"
   checksum: dcac00920a4d503e38bb64001acb19df4efc14536ada475725e12f52c16777afdee4db827f55f13a908ee7efc0cb282e2e3dbaeeb98c0993dd93d1802d3bf00c
+  languageName: node
+  linkType: hard
+
+"divisor@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "divisor@npm:1.0.3"
+  checksum: d26c5cf660b822c268a8bce4fc9e20634b2aa77389563c43669857a6ffd6a335a225954efc30e3802507979c1b2644cafa3ff59350138d4b0dbbee6be0cef158
   languageName: node
   linkType: hard
 
