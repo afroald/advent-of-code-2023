@@ -39,6 +39,8 @@
   "dependencies": {
     "divisor": "^1.0.3",
     "lodash": "^4.17.21",
+    "p-map": "^7.0.0",
+    "pretty-ms": "^8.0.0",
     "ts-enum-util": "^4.0.2"
   }
 }
