@@ -1363,10 +1363,12 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.0.1"
     jest: "npm:^29.7.0"
     lodash: "npm:^4.17.21"
+    memoize: "npm:^10.0.0"
     meow: "npm:^12.1.1"
     p-map: "npm:^7.0.0"
     prettier: "npm:^3.1.0"
     pretty-ms: "npm:^8.0.0"
+    stats-map: "npm:^1.0.0"
     ts-enum-util: "npm:^4.0.2"
     ts-jest: "npm:^29.1.1"
     tsx: "npm:^4.6.2"
@@ -3686,6 +3688,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"memoize@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "memoize@npm:10.0.0"
+  dependencies:
+    mimic-function: "npm:^5.0.0"
+  checksum: 1584351834564be66b21d47b7afe495851f622669ad49e2f4fa4f35d5633471b93176cf602130a95f71fa0aee65a20179817ffac2dd11fa354aa19a8109a14e8
+  languageName: node
+  linkType: hard
+
 "meow@npm:^12.1.1":
   version: 12.1.1
   resolution: "meow@npm:12.1.1"
@@ -3728,6 +3739,13 @@ __metadata:
   version: 4.0.0
   resolution: "mimic-fn@npm:4.0.0"
   checksum: de9cc32be9996fd941e512248338e43407f63f6d497abe8441fa33447d922e927de54d4cc3c1a3c6d652857acd770389d5a3823f311a744132760ce2be15ccbf
+  languageName: node
+  linkType: hard
+
+"mimic-function@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "mimic-function@npm:5.0.0"
+  checksum: d822af182e4f71e8659efdbc2a40f63425413b96c3ebad1b5c082bbc2a39171203b9db8e31fb00e30e6b413eb4f42defef3bf379c5d4f24b147659e9b6ec1200
   languageName: node
   linkType: hard
 
@@ -4506,6 +4524,13 @@ __metadata:
   dependencies:
     escape-string-regexp: "npm:^2.0.0"
   checksum: 651c9f87667e077584bbe848acaecc6049bc71979f1e9a46c7b920cad4431c388df0f51b8ad7cfd6eed3db97a2878d0fc8b3122979439ea8bac29c61c95eec8a
+  languageName: node
+  linkType: hard
+
+"stats-map@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "stats-map@npm:1.0.0"
+  checksum: 15ec3d36c37ab45e39664ffdb5179c910e23d70ee0eed7bc34914baaabfc239f82edcd309ac2d54c2eb741c9c67ba787b985b7685374e74d0a43bd53eb766403
   languageName: node
   linkType: hard
 

@@ -8,7 +8,7 @@
     "isolatedModules": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES2022",
+    "target": "ESNext",
     "incremental": true,
     "declaration": true,
     "removeComments": true,
