@@ -36,8 +36,13 @@ export enum Direction {
   Down,
 }
 
+export enum Rotation {
+  Clockwise,
+  CounterClockwise,
+}
+
 export class Grid<T> {
-  constructor(private readonly rows: T[][]) {}
+  constructor(private rows: T[][]) {}
 
   get width(): number {
     return this.rows[0].length;
@@ -156,6 +161,21 @@ export class Grid<T> {
 
     for (const [y, row] of this.rows.entries()) {
       row.splice(x, 0, column[y]);
+    }
+  }
+
+  rotate(direction: Rotation) {
+    switch (direction) {
+      case Rotation.Clockwise:
+        this.rows = this.rows[0].map((_, index) =>
+          this.rows.map((row) => row[index]).reverse(),
+        );
+        break;
+      case Rotation.CounterClockwise:
+        this.rows = this.rows[0].map((_, index) =>
+          this.rows.map((row) => row[row.length - 1 - index]),
+        );
+        break;
     }
   }
 
