@@ -24,16 +24,20 @@ export class Position {
     return this.x === other.x && this.y === other.y;
   }
 
+  toString(): string {
+    return `${this.x},${this.y}`;
+  }
+
   [Symbol.for('nodejs.util.inspect.custom')]() {
     return `Position(x: ${this.x}, y: ${this.y})`;
   }
 }
 
 export enum Direction {
-  Up,
-  Left,
-  Right,
-  Down,
+  Up = 'up',
+  Left = 'left',
+  Right = 'right',
+  Down = 'down',
 }
 
 export enum Rotation {
@@ -177,6 +181,10 @@ export class Grid<T> {
         );
         break;
     }
+  }
+
+  clone(): Grid<T> {
+    return new Grid(this.rows.map((row) => Array.from(row)));
   }
 
   [Symbol.for('nodejs.util.inspect.custom')]() {
